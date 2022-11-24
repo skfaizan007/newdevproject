@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('source') {
             steps {
-               git 'https://github.com/sd031/aws_codebuild_codedeploy_nodeJs_demo.git'
+               git 'https://github.com/skfaizan007/newdevproject.gitt'
                sh 'cat index.js'
             }
             
